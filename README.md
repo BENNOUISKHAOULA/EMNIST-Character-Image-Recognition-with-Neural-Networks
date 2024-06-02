@@ -6,7 +6,9 @@ Real-time Recognition: App.py allows users to draw characters on a whiteboard an
 Interactive Interface: Users can choose actions like drawing, cutting, resetting the whiteboard, and exiting the application.
 Prediction Display: The application displays the best predictions for the drawn characters along with their accuracy.
 Model Training: Train.py provides functionality to load and preprocess the EMNIST dataset, train a Convolutional Neural Network (CNN) model, and save the trained model for later use.
-Dependencies
+
+--------------------------Dependencies
+upload EMNIST-balanced-train.csv from kaggle  and add it to the project's folder 
 App.py: Requires numpy, tensorflow, keras, and opencv.
 Train.py: Requires numpy, pandas, matplotlib, keras, and sklearn.
 
